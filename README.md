@@ -1,5 +1,5 @@
 # Get-UniqueObjs
-Filter a list of Powershell Objects by one or more properties
+Return a Unique list of Powershell Objects, on one or more properties
 
 ```Powershell
 Function Get-UniqueObjs {
