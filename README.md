@@ -27,8 +27,7 @@ Function Get-UniqueObjs {
     param (
         [parameter(Mandatory = $false, ValueFromPipeline = $true)]
         [object[]]$inputObjects,
-        [string[]]$property,
-        [switch]$passThru
+        [string[]]$property
     )
     Begin {
         $list = @()
